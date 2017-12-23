@@ -1,0 +1,43 @@
+header {
+            padding: 1em;
+            color: whitesmoke;
+            background-color: black;
+            clear: center;
+            text-align: center;
+            font-family: vollkorn;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        li {
+            float: right;
+            text-align: center;
+        }
+
+        li a {
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+        li a:hover:not(.active) {
+            background-color: gray;
+            color: whitesmoke;
+        }
+
+        .active {
+            background-color: green;
+            color: whitesmoke;
+        }
